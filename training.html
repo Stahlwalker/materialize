@@ -12,6 +12,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
     <title>Materialize CSS</title>
     <style>
+        nav .badge{
+            position: relative;
+            top: 20px;
+            right: 20px;
+        }
         .box{
             height: 200px;
         }
@@ -37,7 +42,10 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><a href="#" class="btn-floating indigo darken-4 z-depth-0">
+                            <i class="material-icons">notifications</i>
+                        </a></li>
+                        <li><span class="badge white-text pink new"></span></li>
                     </ul>
                 </div>  
             </nav>
