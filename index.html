@@ -9,20 +9,32 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <title>Photo Ninja</title>
+  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+  <title>Stahlwalker Materialize Theme</title>
   <style>
       header{
-          background: url(img/man.jpg);
+          background: url(img/minimalistcity.jpg);
           background-size: cover;
           background-position: center;
           min-height: 1000px;
+      }
+
+      body {
+        font-family: 'Caveat', cursive;
+      }
+      nav .brand-logo {
+        position: absolute;
+        color: #4db6ac;
+        display: inline-block;
+        font-size: 2.1rem;
+        padding: 0;
       }
       .section {
           padding-top: 4vw;
           padding-bottom: 4vw;
       }
       .tabs .indicator{
-          background-color: #1a237e;
+          background-color: #4db6ac;
       }
       .tabs .tab a:focus, .tabs .tab a:focus.active{
           background: transparent;
@@ -40,21 +52,21 @@
   <header>
     <nav class="nav-wrapper transparent">
         <div class="container">
-            <a href="" class="brand-logo">Photo Ninja</a>
+            <a href="" class="brand-logo">Stahlwalker</a>
             <a href="" class="sidenav-trigger" data-target="mobile-menu">
                 <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#photos">Photos</a></li>
+                <li><a href="#photos">Gallery</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="This is Instagram">
+                <li><a href="#" class="btn-floating btn-small teal lighten-2">
                     <i class="fab fa-instagram"></i>
                 </a></li>
-                <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="This is Facebook">
+                <li><a href="#" class="btn-floating btn-small teal lighten-2">
                     <i class="fab fa-facebook"></i>
                 </a></li>
-                <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="This is Twitter">
+                <li><a href="#" class="btn-floating btn-small teal lighten-2">
                     <i class="fab fa-twitter"></i>
                 </a></li>
             </ul>
@@ -71,28 +83,28 @@
    <section class="container section scrollspy" id="photos">
         <div class="row">
           <div class="col s12 l4">
-              <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+              <img src="img/computer.png" alt="" class="responsive-img materialboxed">
           </div>
           <div class="col s12 l6 offset-l1">
-            <h2 class="indigo-text text-darken-4">Portraits</h2>
+            <h2 class="grey-text">Highlights</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
           </div>
         </div>
         <div class="row">
           <div class="col s12 l4 offset-l1 push-l7">
-              <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+              <img src="img/computer.png" alt="" class="responsive-img materialboxed">
           </div>
           <div class="col s12 l6 offset-l1 pull-l5 right-align">
-            <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+            <h2 class="grey-text">Video</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
           </div>
         </div>
         <div class="row">
           <div class="col s12 l4">
-              <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+              <img src="img/computer.png" alt="" class="responsive-img materialboxed">
           </div>
           <div class="col s12 l6 offset-l1">
-            <h2 class="indigo-text text-darken-4">Nature</h2>
+            <h2 class="grey-text">Media Commentary</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
           </div>
         </div>
@@ -101,33 +113,33 @@
   <!-- parallax -->
     <div class="parallax-container">
         <div class="parallax">
-            <img src="img/street.jpg" alt="" class="responsive-img">
+            <img src="img/internet2.jpg" alt="" class="responsive-img">
         </div>
     </div>
   <!-- services / tabs -->
     <section class="container section scrollspy" id="services">
         <div class="row">
             <div class="col s12 l4">
-                <h2 class="indigo-text text-darken-4">What I do...</h2>
+                <h2 class="teal-text text-lighten-2">What I do...</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
             </div>
             <div class="col s12 l6 offset-l2">
                 <ul class="tabs">
                     <li class="tab col s6">
-                        <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+                        <a href="#webdesign" class="teal-text text-lighten-2">Web Design</a>
                     </li>
                     <li class="tab col s6">
-                        <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                        <a href="#marketing" class="teal-text text-lighten-2">Marketing</a>
                     </li>
                 </ul>
-                <div class="col s12" id="photography">
-                    <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+                <div class="col s12" id="webdesign">
+                    <p class="flow-text teal-text text-lighten-2">WEB DESIGN</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
                 </div>
-                <div class="col s12" id="editing">
-                    <p class="flow-text indigo-text text-darken-4">EDITING</p>
+                <div class="col s12" id="marketing">
+                    <p class="flow-text teal-text text-lighten-2">MARKETING</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
                 </div>
@@ -138,7 +150,7 @@
   <!-- parallax -->
     <div class="parallax-container">
         <div class="parallax">
-            <img src="img/stars.jpg" alt="" class="responsive-img">
+            <img src="img/gradient3.jpg" alt="" class="responsive-img">
         </div>
     </div>
 
@@ -146,7 +158,7 @@
     <section class="section container scrollspy" id="contact">
         <div class="row">
             <div class="col s12 l5">
-                <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+                <h2 class="grey-text text-darken-2">Get In Touch</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fugit possimus, soluta laboriosam quisquam error aperiam exercitationem maiores, accusamus dolores tempora iste hic voluptate explicabo! Quae illum alias totam natus.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fugit possimus, soluta laboriosam quisquam error aperiam exercitationem maiores, accusamus dolores tempora iste hic voluptate explicabo! Quae illum alias totam natus.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fugit possimus, soluta laboriosam quisquam error aperiam exercitationem maiores, accusamus dolores tempora iste hic voluptate explicabo! Quae illum alias totam natus.</p>
@@ -203,16 +215,24 @@
                 <div class="col s12 l4 offset-l2">
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="" class="grey-text text-lighten-3">Facebook</a></li>
-                        <li><a href="" class="grey-text text-lighten-3">Twitter</a></li>
-                        <li><a href="" class="grey-text text-lighten-3">LinkedIn</a></li>
-                        <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+                        <li><a href="" class="teal-text text-lighten-2">Facebook</a>
+                            <i class="fab fa-facebook"></i>
+                        </li>
+                        <li><a href="" class="teal-text text-lighten-2">Twitter</a>
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                        <li><a href="" class="teal-text text-lighten-2">LinkedIn</a>
+                            <i class="fab fa-linkedIn"></i>
+                        </li>
+                        <li><a href="" class="teal-text text-lighten-2">Instagram</a>
+                            <i class="fab fa-instagram"></i>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright grey darken-4">
-            <div class="container center-align">&copy; 2018 Photo Ninja</div>
+        <div class="footer-copyright teal lighten-2">
+            <div class="container center-align">&copy; 2019 Stahlwalker</div>
         </div>
     </footer>
 
